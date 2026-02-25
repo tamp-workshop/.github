@@ -16,33 +16,26 @@ There's something almost *craft* about it — like a well-made physical object t
 
 ---
 
-### themes — 6 × VSCode · Vim
+**tamp-workshop** is the org. **tamp** is the brand.  
+Think: `workshop → toolkit → tool.`
 
-[**tamp-themes**](https://github.com/tamp/themes) — Lunar Lobby and five others. All available for VSCode and Vim.
+---
+
+### themes — 3 families · VSCode · Vim
+
+[**tamp/themes**](https://github.com/tamp-workshop/themes)
+
+| | dark | day |
+|---|---|---|
+| Lunar Lobby | ✦ | ✦ |
+| Space Rumours | ✦ | ✦ |
+| Vanguard Outpost | ✦ | ✦ |
 
 ### cli tools
 
 | | |
 |---|---|
-| [**tamp-note**](https://github.com/tamp/note) | Timestamped notes in plain markdown. Tags, todos, search. |
-
----
-
-### structure
-
-```
-tamp/
-  .github/profile/README.md     # org profile — this page
-  tamp-note/                    # CLI note taking
-  tamp-clutter/                 # workspace health report
-  tamp-themes/                  # all themes, one repo
-    vscode/
-      lunar-lobby/
-      ...
-    vim/
-      lunar-lobby.vim
-      ...
-```
+| [**note**](https://github.com/tamp-workshop/note) | Timestamped notes in plain markdown. Tags, todos, search. |
 
 ---
 
