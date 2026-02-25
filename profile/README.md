@@ -4,15 +4,14 @@
 
 ---
 
-> • We build intentionally small tools.</br>
-> • Built to last, no dependencies.</br>
+> • Intentionally small tools.</br>
+> • Built to last, zero dependencies.</br>
 > • Software that behaves.
 
 ---
 
-It's the opposite of bloat. No splash screens, no telemetry, no fifteen dependencies pulling in half of npm. It's the tool that does exactly one thing, does it well, and gets out of your way.
-
-There's something almost *craft* about it — like a well-made physical object that has no unnecessary parts.
+A collection of tools that are the opposite of bloat. No splash screens, no telemetry, no fifteen dependencies dragging in half of npm.
+Pick your tool that does exactly one thing, and gets out of your way.
 
 ---
 
