@@ -1,42 +1,40 @@
 # tamp
 
-***Small tools. Sharper you.***
+***A considered working environment for programmers who care.***
 
 ---
 
-> • Intentionally small tools.</br>
-> • Built to last, zero dependencies.</br>
-> • Software that behaves.
+No splash screens. No telemetry. No fifteen dependencies pulling in half of npm.  
+Just tools that do exactly what they need to do and then get out of the way.
+
+There's something almost *craft* about it. Like a well-made physical object with no unnecessary parts. You pick it up, it fits your hand, it works. You don't think about it again until you need it.
+
+That's what we're trying to build here.
 
 ---
 
-A collection of tools that are the opposite of bloat. No splash screens, no telemetry, no fifteen dependencies dragging in half of npm.
-Pick your tool that does exactly one thing, and gets out of your way.
-
----
-
-**tamp-workshop** is the org. **tamp** is the brand.  
-Think: `workshop → toolkit → tool.`
-
----
-
-### themes — 3 families · VSCode · Vim
+### themes ✧ six cinematic themes for VS Code and Vim
 
 [**tamp/themes**](https://github.com/tamp-workshop/themes)
 
-| | dark | day |
-|---|---|---|
-| Lunar Lobby | ✦ | ✦ |
-| Space Rumours | ✦ | ✦ |
-| Vanguard Outpost | ✦ | ✦ |
+→ Three identities with Night and Day variants. Calibrated for the long session.
 
-### cli tools
+| | Night | Day |
+|---|:---:|:---:|
+| Lunar Lobby | ✦ | ✧ |
+| Space Rumours | ✦ | ✧ |
+| Vanguard Outpost | ✦ | ✧ |
+
+### cli tools ✧ pick what you need
 
 | | |
 |---|---|
-| [**note**](https://github.com/tamp-workshop/note) | Timestamped notes in plain markdown. Tags, todos, search. |
+| [**tamp**](https://github.com/tamp-workshop/tamp) | See everything installed. The front door to the workshop. |
+| [**tamp-note**](https://github.com/tamp-workshop/note) | Timestamped notes in plain markdown. Tags, todos, search. No app required. |
+| [**tamp-clutter**](https://github.com/tamp-workshop/clutter) | Surfaces stale branches, dead venvs, orphaned node_modules. Reports. Never deletes. |
+
 
 ---
 
-*Intentionally small. Good contributions welcome.  
-No new dependencies. If you're not sure whether something belongs in tamp, it probably doesn't.*
+*Good contributions welcome. No new dependencies.*  
+*If you're not sure whether something belongs in tamp, sit with that feeling for a while.*
