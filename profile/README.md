@@ -1,40 +1,42 @@
 # tamp
 
-***A considered working environment for programmers who care.***
+***Small tools for people who think in plain text.***
 
 ---
 
-No splash screens. No telemetry. No fifteen dependencies pulling in half of npm.  
-Just tools that do exactly what they need to do and then get out of the way.
-
-There's something almost *craft* about it. Like a well-made physical object with no unnecessary parts. You pick it up, it fits your hand, it works. You don't think about it again until you need it.
-
-That's what we're trying to build here.
+tamp is a collection of command-line tools built around one idea: your notes, tasks, and thoughts should live in plain markdown files that you own, on your machine, forever. No account. No sync service. No lock-in.
 
 ---
 
-### themes ✧ six cinematic themes for VS Code and Vim
+### tools
 
-[**tamp/themes**](https://github.com/tamp-workshop/themes)
+| | status | description |
+|---|---|---|
+| [**tamp-note**](https://github.com/tamp-workshop/tamp) | active | Daily notes TUI. Quick-add from anywhere, slash commands, tag autocomplete, local stats. |
 
-→ Three identities with Night and Day variants. Calibrated for the long session.
-
-| | Night | Day |
-|---|:---:|:---:|
-| Lunar Lobby | ✦ | ✧ |
-| Space Rumours | ✦ | ✧ |
-| Vanguard Outpost | ✦ | ✧ |
-
-### cli tools ✧ pick what you need
-
-| | |
-|---|---|
-| [**tamp**](https://github.com/tamp-workshop/tamp) | See everything installed. The front door to the workshop. |
-| [**tamp-note**](https://github.com/tamp-workshop/note) | Timestamped notes in plain markdown. Tags, todos, search. No app required. |
-| [**tamp-clutter**](https://github.com/tamp-workshop/clutter) | Surfaces stale branches, dead venvs, orphaned node_modules. Reports. Never deletes. |
-
+All tools share the same file format and data layer. Your notes work with all of them — and with none of them.
 
 ---
 
-*Good contributions welcome. No new dependencies.*  
-*If you're not sure whether something belongs in tamp, sit with that feeling for a while.*
+### themes
+
+Three cinematic colour families for VSCode and Vim.
+
+[**tamp-workshop/themes**](https://github.com/tamp-workshop/themes) — Lunar Lobby · Space Rumours · Vanguard Outpost
+
+---
+
+### why we changed course
+
+tamp started as a single shell script called `note`. It worked, people used it, and it grew. But a single script can't cleanly become multiple tools sharing the same data.
+
+In March 2026 I rewrote everything as a proper monorepo:
+- **tamp-core** *shared data layer, one implementation of the file format*
+- **tamp-note** *the TUI tool, rebuilt from scratch on Textual*
+- Future tools will import from tamp-core without duplicating any logic. Hopefully...
+
+The old `note` repo is archived. Everything is in [tamp-workshop/tamp](https://github.com/tamp-workshop/tamp) now.
+
+---
+
+*Good contributions welcome. No new dependencies without a strong reason. If you're not sure whether something belongs in tamp, it probably doesn't.*
